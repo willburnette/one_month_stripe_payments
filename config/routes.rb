@@ -8,7 +8,7 @@ root 'pages#home'
   resources :charges
 
   # Route for showing products
-  resources :products, only: [:index]
+  resources :products, only: [:index, :show]
 
   # Route for showing purchases
   resources :purchases, only: [:show]
